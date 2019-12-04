@@ -1,0 +1,57 @@
+:root {
+    font-family: 'Alatsi', sans-serif;
+    --main-color: black;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    max-width: 980px;
+    margin: auto;
+} 
+
+header .logo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    text-align: left;
+    margin: 1rem 0;
+}
+
+header .name {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    text-align: left;
+    margin: 1rem 0;
+    color:orangered;
+}
+
+header nav .menu {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    justify-content: space-around;
+}
+
+header nav .menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+header nav .menu a:hover {
+    border: 1px solid var(--main-color);
+}
+
+@media (min-width: 600px) {
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+
+     header .menu {
+        flex: 1;
+    }
+}
+
