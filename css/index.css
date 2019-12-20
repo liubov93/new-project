@@ -30,11 +30,18 @@ header .logo {
     margin: 1rem;
 }
 
-@media (min-width: 980px) {
 .burger-menu {
-    padding-right:3rem;
-    display:flex;
-    align-items: center;
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
+    left:600px;
+}
+
+@media (min-width: 980px) {
+    .burger-menu {
+        padding-right:3rem;
+        display:flex;
+        align-items: center;
     }   
 }
 
@@ -83,17 +90,19 @@ header .logo {
 }
 
 .house-doll p {
+    padding: 2rem 2rem;
     font-size: x-large;
     font-family: 'Bebas Neue', cursive;
     color: purple;
-    text-align: justify;
+    text-align: left;
 }
-
-.house-doll {
-    padding: 2rem;
+@media (min-width: 980px) {
+    .house-doll {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-column-gap:10px;
     align-items: center;
+    }
 }
 
 #замовити h3 {
@@ -114,4 +123,11 @@ header .logo {
         grid-gap: 20px 20px;
         align-items: baseline;
     }
+}
+
+.end-logo {
+    text-align: center;
+    font-size: larger;
+    color:blueviolet;
+    font-weight: bold;   
 }
