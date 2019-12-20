@@ -31,11 +31,11 @@ header .logo {
 }
 
 @media (min-width: 980px) {
-.burger-menu {
-    padding-right:3rem;
-    display:flex;
-    align-items: center;
-    }   
+    .burger-menu {
+        display:flex;
+        align-items: center;
+        padding-right:3rem;
+    }
 }
 
 
@@ -87,13 +87,16 @@ header .logo {
     font-family: 'Bebas Neue', cursive;
     color: purple;
     text-align: justify;
+
 }
 
-.house-doll {
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+@media (min-width: 980px) {
+    .house-doll {
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
 }
 
 #замовити h3 {
@@ -114,4 +117,10 @@ header .logo {
         grid-gap: 20px 20px;
         align-items: baseline;
     }
+}
+
+.end-logo {
+text-align: center;
+    font-size: larger;
+    color:blueviolet;
 }
