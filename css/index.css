@@ -43,8 +43,6 @@ header .logo {
         display:flex;
         align-items: center;
     }   
-}
-
 
 .information {
     text-align: center;
@@ -94,14 +92,16 @@ header .logo {
     font-size: x-large;
     font-family: 'Bebas Neue', cursive;
     color: purple;
-    text-align: left;
+    text-align:left;
 }
+
 @media (min-width: 980px) {
     .house-doll {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap:10px;
-    align-items: center;
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap:10px;
+        align-items: center;
     }
 }
 
