@@ -30,13 +30,6 @@ header .logo {
     margin: 1rem;
 }
 
-.burger-menu {
-    position: absolute;
-    top: 3rem;
-    right: 1rem;
-    left:600px;
-}
-
 @media (min-width: 980px) {
     .burger-menu {
         padding-right:3rem;
