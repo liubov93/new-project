@@ -1,5 +1,6 @@
 const btnFetchHtml = document.querySelector('.fetch-html');
 btnFetchHtml.addEventListener('click', fetchHtml);
+
 function fetchHtml() {
     fetch('client-data.html')
         .then( response => response.text() )
